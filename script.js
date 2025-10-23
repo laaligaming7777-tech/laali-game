@@ -6,7 +6,7 @@ function startFlow(url) {
 }
 
 function openEmail() {
-  const to = encodeURIComponent("amarnathtiwari.games@gmail.com");
+  const to = encodeURIComponent("laaligames7777@gmail.com");
   const subject = encodeURIComponent("Feedback / Bug Report — FlipCard");
   const body = encodeURIComponent(`Hi Amarnath,\n\nI tried your FlipCard game and wanted to share:\n- Device / OS:\n- Game version:\n- Feedback / Bug details:\n\nThanks,\n[Your name]`);
   window.location.href = `mailto:${to}?subject=${subject}&body=${body}`;
